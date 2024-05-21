@@ -82,7 +82,7 @@ a {
 
 /****searchbar*****/
 .bar-serch{
-    padding: 20px;
+    padding: 30px;
     
 }
 .bar-titre{
@@ -145,9 +145,9 @@ a {
 }
 
 .filter h2 {
-    font-weight: 700;
     display: flex;
     align-items: center;
+    font-weight: 700;
 }
 
 .filter-category .first-row, .filter-category .second-row {
@@ -323,7 +323,7 @@ a {
 }
 /****Activités*******/
 .container-activity{
-    padding: 30px;
+    padding: 60px;
 }
 
 .activites-section {
@@ -353,20 +353,20 @@ a {
 }
 .activites-section .card-title{
    display: flex;
-   margin-left: 9px;
+   padding: 20px 19px;
 }
 
 /***********footer******/
 footer{
     display: flex; 
-    padding:0 30px;
+    padding:30px;
 }
 
 .footer-nav {
     background-color: #F2F2F2;
     flex: 1 0 0;
     align-self: stretch; 
-    padding: 0 15px 30px;  
+    padding: 15px 30px;  
 }
 .footer-nav a{
     display: flex;
