@@ -24,10 +24,6 @@ html{
     margin:0;
     padding: 50px;
 }
-
-img{
-        object-fit:cover;
-    }
 a {
     color: inherit;
     text-decoration: none;
@@ -75,7 +71,8 @@ a {
 }
 .link-nav{
    display:flex;
-   padding: 15px 50px;
+   justify-content: center;
+   padding: 15px 30px;
     }
 
 .link-nav:hover{
@@ -85,7 +82,8 @@ a {
 
 /****searchbar*****/
 .bar-serch{
-    padding: 30px;
+    padding: 20px;
+    
 }
 .bar-titre{
     display: flex;
@@ -97,15 +95,14 @@ a {
     font-size:16px;
 }
 .element-searchfrom{
-    display: flex;
-    flex: 1 1 auto; 
-    width: 80%;
+    width: 100%;
 }
 .search-from{
     display: flex;
     margin-top: 15px;
 }
 .search-from input{
+
     font-weight: 700;
     font-size: 18px;
     padding: 10px;
@@ -210,6 +207,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    padding: 0 30px;
 }
 
 .hebergements-and-populaires section {
@@ -325,14 +323,13 @@ a {
 }
 /****Activités*******/
 .container-activity{
-   
     padding: 30px;
 }
 
 .activites-section {
     display: flex;
     gap: 2%;
-    margin-top:35px;
+    margin-top:30px;
 }
 
 .activites-section a {
@@ -340,8 +337,8 @@ a {
 }
 
 .activites-section .card {
-    padding: 0;
     height: 440px;
+    padding: 0;
 }
 .activites-section img {
     width: 100%;
@@ -352,20 +349,24 @@ a {
     display: flex;
     height: 20%;
     align-items: center;
-    margin-left: 19px;
+    margin-top: -5px;
+}
+.activites-section .card-title{
+   display: flex;
+   margin-left: 9px;
 }
 
 /***********footer******/
 footer{
-    background-color: #F2F2F2;
-    width: 100%;
     display: flex; 
+    padding:0 30px;
 }
 
 .footer-nav {
-    margin: 20px;
+    background-color: #F2F2F2;
     flex: 1 0 0;
-    align-self: stretch;   
+    align-self: stretch; 
+    padding: 0 15px 30px;  
 }
 .footer-nav a{
     display: flex;
@@ -450,16 +451,12 @@ footer{
     }
     /*********sbar serch******/
     .element-searchfrom{
-        display: flex;
-        flex: 1 1 auto; 
         width: 100%;
     }
-   
-    .search input {
-        width: 50px;
-        height: 49px;
-        flex-shrink: 0;
-        width:230px;
+    .search-from input{
+        display: flex;
+        flex: 1 1 auto;
+        width: 80%;
     }
     .mobile-none{
         display: none;
@@ -469,7 +466,7 @@ footer{
         border: 1px solid var(--Blue, #0065FC);
         background: var(--Blue, #0065FC);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        margin-left: -15px;
+        margin-left: -10px;
     }
     .desktop-none{
     display: flex;
