@@ -359,7 +359,7 @@ a {
 /***********footer******/
 footer{
     display: flex; 
-    padding:30px;
+    padding:0 30px;
 }
 
 .footer-nav {
