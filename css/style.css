@@ -249,7 +249,7 @@ a {
 }
 .hebergements-cards img{
     width: 100%;
-    height: 142px;
+    height: 120px;
     border-top-left-radius: 20px;
     border-top-right-radius:20px;
 }
@@ -270,7 +270,6 @@ a {
     margin-bottom: 5px;
 }
 .display{
-    margin-top: 30px;
     font-weight:700 ;
     font-size: 18px;
 }
@@ -389,10 +388,6 @@ footer{
     .hebergements{
         margin-bottom: 50px;
     }
-    
-    .hebergements-and-populaires .hebergements{
-        margin: 30px 0;
-    }
 
   .populaires-cards {
         display: flex;
@@ -504,7 +499,8 @@ footer{
     }
    .hebergements-and-populaires .hebergements{
         background:white;
-        margin-top: 50px;
+        padding: 20px;
+      
     }
     .hebergements-and-populaires {
         padding: 0;
